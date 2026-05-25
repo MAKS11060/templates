@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@maks11060/template",
+  "scripts": {
+    "fmt": "dprint fmt",
+    "lint": "dprint check",
+    "prepare": "git config core.hooksPath .hooks",
+    "build": ""
+  },
+  "packageManager": "pnpm@11.3.0",
+  "devDependencies": {
+    "@types/deno": "catalog:",
+    "@types/node": "catalog:",
+    "@types/bun": "catalog:",
+    "@typescript/native-preview": "catalog:",
+    "tsdown": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "zod": "catalog:"
+  }
+}

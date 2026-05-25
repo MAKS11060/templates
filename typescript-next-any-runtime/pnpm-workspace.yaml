@@ -1,0 +1,15 @@
+# packages:
+#   - ./
+
+allowBuilds:
+  esbuild: true
+
+catalog:
+  "@types/deno": "*"
+  "@types/node": "*"
+  "@types/bun": "*"
+  "@typescript/native-preview": "*"
+  "tsdown": "*"
+  "tsx": "*"
+  "typescript": "*"
+  "zod": "*"
