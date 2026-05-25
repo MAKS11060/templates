@@ -8,6 +8,14 @@
     "build": ""
   },
   "packageManager": "pnpm@11.3.0",
+  "imports": {
+    "#runtime": {
+      "bun": "./src/runtime/bun.ts",
+      "deno": "./src/runtime/deno.ts",
+      "node": "./src/runtime/node.ts",
+      "default": "./src/runtime/default.ts"
+    }
+  },
   "devDependencies": {
     "@types/deno": "catalog:",
     "@types/node": "catalog:",
